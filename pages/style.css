@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Bold";
+  src: url("../assets/fonts/JosefinSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../assets/fonts/JosefinSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../assets/fonts/AbrilFatface-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+body {
+  background: url("../assets/images/main-bg.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#wrap {
+  padding: 40px;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.screen {
+  border-radius: 20px;
+  background: #505880;
+  padding: 40px 15px;
+}
+
+h1 {
+  font-family: "Regular";
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Medium";
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+p {
+  color: #8f99cc;
+  font-family: "Medium";
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+}
+footer .container .footer_screen {
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .footer_screen .agreements {
+  margin-left: 20px;
+  list-style-type: none;
+  display: flex;
+}
+footer .container .footer_screen .agreements li {
+  margin-right: 20px;
+}
+footer .container .footer_screen .agreements li a {
+  color: #8d95ca;
+  text-decoration: none;
+  font-family: "Medium";
+  font-size: 18px;
+}
+
+@media screen and (max-width: 740px) {
+  footer .container .footer_screen .agreements {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 479px) {
+  footer .container .footer_screen {
+    flex-direction: column;
+  }
+  footer .container .footer_screen .agreements {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #wrap {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Medium";
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  p {
+    color: #8f99cc;
+    font-family: "Medium";
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+}

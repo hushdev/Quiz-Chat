@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon.png"
+    />
+
+    <!-- Yandex.Metrika counter -->
+    <!-- <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(75144544, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/75144544"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript> -->
+    <!-- /Yandex.Metrika counter -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>QUIZ</title>
+  </head>
+  <body>
+    <section id="wrap">
+      <div class="container">
+        <div class="screen" style="align-items: center">
+          <div class="first_screen">
+            <h1>
+              What is the best way to promote your
+              <span class="text text-green">FINTECH</span> project?
+            </h1>
+            <p class="hello_screen-first">
+              Go through a short quiz & get a free .pdf presentation
+            </p>
+            <p class="hello_screen-second">
+              «Top 10 tools for
+              <span class="text text-green">FINTECH</span> project promotion in
+              2021»
+            </p>
+            <img src="./assets/images/book.png" class="book" alt="Book" />
+            <!-- <button onclick="ym(75144544,'reachGoal','start');" class="next">
+              START THE QUIZ <img src="./assets/images/click.gif" alt="gif" />
+            </button> -->
+            <button class="next">
+              START THE QUIZ <img src="./assets/images/click.gif" alt="gif" />
+            </button>
+          </div>
+        </div>
+        <div id="chat_screen">
+          <audio src="./assets/audio/income.mp3" id="income_sound" muted></audio>
+          <audio src="./assets/audio/outcome.mp3" id="outcome_sound" muted></audio>
+
+          <div class="question">Have you launched your <span class="text text-white">FINTECH</span> already?</div>
+          <div class="answers">
+            <button class="answer-btn">Yes</button>
+            <button class="answer-btn">Not yet - I plan to do it soon</button>
+          </div>
+          <div class="question">
+            Have you done anything regarding marketing and promotion so far?
+          </div>
+          <div class="answers">
+            <button class="answer-btn">Yes</button>
+            <button class="answer-btn">Not yet</button>
+          </div>
+          <div class="question">
+            How urgently do you need any marketing support?
+          </div>
+          <div class="answers">
+            <button class="answer-btn">As soon as possible</button>
+            <button class="answer-btn">Within 2 weeks</button>
+            <button class="answer-btn">Within 1 month</button>
+            <button class="answer-btn">Not urgent at all</button>
+          </div>
+          <div class="question">
+            Final step: in order to get a free presentation «Top 10 most
+            effective tools for <span class="text text-white">FINTECH</span> promotion» please message via one of these
+            messengers
+          </div>
+          <div class="answers socials_answers">
+            <a href="https://bit.ly/3dna7vH" target="_blank">
+              <img src="./assets/images/tg.svg" alt="icon" /> Telegram
+            </a>
+            <a href="https://bit.ly/3doQ4gj" target="_blank">
+              <img src="./assets/images/whatsapp.svg" alt="icon"/> WhatsApp
+            </a>
+            <a href="https://bit.ly/2RJpypN" target="_blank">
+              <img src="./assets/images/fb.svg" alt="icon" /> Facebook
+            </a>
+          </div>
+          <div id="anchor"></div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer_wrap">
+      <div class="container">
+        <div class="footer_screen">
+          <ul class="agreements">
+            <li>
+              <a href="./pages/terms.html" target="_blank"
+                >Terms and conditions</a
+              >
+            </li>
+            <li>
+              <a href="./pages/privacy.html" target="_blank">Privacy policy</a>
+            </li>
+            <li>
+              <a href="./pages/cookie.html" target="_blank">Cookie Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
